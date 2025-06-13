@@ -27,7 +27,7 @@ public class GameControllerTest {
                 .andExpect(status().isOk());
     }
 
-    // testing the "GET /games/${id}" routes exist
+    // testing the "GET /games/${id}" routes exist -> fails right now
     @Test
     void verifySingleGamePath() throws Exception {
         mockMvc.perform(get("/games/{id}"))

@@ -1,24 +1,24 @@
 package com.sethjohnston.gametracker.model;
 
 public class Game {
-    private int id;
+    private int gameId;
     private String title;
     private String platform;
     private double rating;
 
     public Game(int id, String title, String platform, double rating) {
-        this.id = id;
+        this.gameId = id;
         this.title = title;
         this.platform = platform;
         this.rating = rating;
     }
 
-    public int getId() {
-        return this.id;
+    public int getGameId() {
+        return this.gameId;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setGameId(int gameId) {
+        this.gameId = gameId;
     }
 
     public String getTitle() {
