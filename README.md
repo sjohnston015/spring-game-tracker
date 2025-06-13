@@ -15,6 +15,7 @@ A simple Spring Boot API that manages video games and their metadata. My goal is
 
 ### What I'm working on:
 
+- JUnit Testing & Test-Driven Development
 - POST/PUT Endpoints
 - Database Support with MongoDB
 - A connected frontend
@@ -42,6 +43,4 @@ Make sure you have the following installed on your machine before running locall
   - This project uses **Maven** - if you'd like to use **Gradle** instead, you'd need to manually convert the build configuration
 - An IDE (IntelliJ, Eclipse, VS-Code)
 
-
-
-
+#### Author: Seth Johnston - All work is my own.
