@@ -6,8 +6,8 @@ public class Game {
     private String platform;
     private double rating;
 
-    public Game(int id, String title, String platform, double rating) {
-        this.gameId = id;
+    public Game(int gameId, String title, String platform, double rating) {
+        this.gameId = gameId;
         this.title = title;
         this.platform = platform;
         this.rating = rating;
